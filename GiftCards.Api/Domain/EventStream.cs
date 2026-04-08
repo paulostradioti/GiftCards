@@ -1,3 +1,5 @@
+using GiftCards.Api.Domain.Repositories;
+
 namespace GiftCards.Api.Domain;
 
 public class EventStream<TEntity>(IEventStore eventStore, Guid aggregateId)

@@ -1,5 +1,7 @@
 ﻿using GiftCards.Api.Domain;
-using GiftCards.Api.Features.GiftCards.Events;
+using GiftCards.Api.Domain;
+using GiftCards.Api.Domain.Events;
+using GiftCards.Api.Domain.Repositories;
 using GiftCards.Api.Shared;
 using MediatR;
 

@@ -16,7 +16,8 @@ namespace GiftCards.Api.Features.GiftCards.UpdateMessage
                     : Results.BadRequest(new { error = result.Error });
             })
                 .WithName("UpdateMessage")
-                .WithSummary("Updates the message of a Gift Card");
+                .WithSummary("Updates the message of a Gift Card")
+                .WithTags("Commands");
 
             return group;
         }

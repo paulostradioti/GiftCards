@@ -1,4 +1,4 @@
-namespace GiftCards.Api.Domain;
+namespace GiftCards.Api.Domain.Repositories;
 
 public interface IEventStore
 {

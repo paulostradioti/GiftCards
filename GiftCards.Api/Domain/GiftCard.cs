@@ -1,7 +1,6 @@
-﻿using GiftCards.Api.Domain;
-using GiftCards.Api.Features.GiftCards.Events;
+﻿using GiftCards.Api.Domain.Events;
 
-namespace GiftCards.Api.Features.GiftCards
+namespace GiftCards.Api.Domain
 {
     public class GiftCard : AggregateRoot
     {

@@ -1,4 +1,4 @@
-namespace GiftCards.Api.Features.GiftCards.Events
+namespace GiftCards.Api.Domain.Events
 {
     public record MessageUpdated(string NewMessage);
 }

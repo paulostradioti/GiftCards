@@ -16,7 +16,8 @@ namespace GiftCards.Api.Features.GiftCards.Redeem
                     : Results.BadRequest(new { error = result.Error });
             })
                 .WithName("RedeemGiftCard")
-                .WithSummary("Redeems a Gift Card, marking it as used");
+                .WithSummary("Redeems a Gift Card, marking it as used")
+                .WithTags("Commands");
 
             return group;
         }

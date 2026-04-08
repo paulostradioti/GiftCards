@@ -1,4 +1,5 @@
 using GiftCards.Api.Domain;
+using GiftCards.Api.Domain.Repositories;
 using GiftCards.Api.Shared;
 using MediatR;
 

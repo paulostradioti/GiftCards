@@ -1,5 +1,5 @@
 
-using GiftCards.Api.Domain;
+using GiftCards.Api.Domain.Repositories;
 
 namespace GiftCards.Api.Infrastructure.Persistence;
 
